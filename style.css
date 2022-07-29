@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: underline !important;
+    color: rgb(41, 41, 41);
+}
+
+nav {
+    gap: 30px;
+    font-size: 1.25em;
+}
+
+#feature {
+    max-width: 50%;
+}
