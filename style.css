@@ -2,6 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+    font-size: 1.15em;
 }
 
 a {
@@ -11,9 +12,12 @@ a {
 
 nav {
     gap: 30px;
-    font-size: 1.25em;
 }
 
 #feature {
     max-width: 50%;
+}
+
+ul {
+    list-style: none;
 }
