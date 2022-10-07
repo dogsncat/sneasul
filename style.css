@@ -10,6 +10,11 @@ a {
     color: rgb(41, 41, 41);
 }
 
+#comm a {
+    text-decoration: underline !important;
+    color: rgb(243, 243, 243);
+}
+
 nav {
     gap: 30px;
 }
@@ -18,14 +23,14 @@ nav {
     max-width: 50%;
 }
 
+#comm-list {
+    list-style: inside;
+}
+
 ul {
     list-style: none;
 }
 
 .limit {
     max-width: 60%;
-}
-
-.important {
-    color: blue;
 }
