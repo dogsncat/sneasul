@@ -34,3 +34,14 @@ ul {
 .limit {
     max-width: 60%;
 }
+
+.label {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+}
+
+.label-holder {
+    position: relative;
+}
