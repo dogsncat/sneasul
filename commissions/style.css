@@ -62,6 +62,12 @@ h2 {
     padding: 0.25em;
 }
 
+#important {
+    background-color: yellow;
+    color: black;
+    padding: 0.25em;
+}
+
 .black {
     background-color: black;
     color: white;
