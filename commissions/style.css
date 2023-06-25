@@ -63,9 +63,10 @@ h2 {
 }
 
 #important {
-    background-color: yellow;
-    color: black;
+    background-color: orange;
+    color: white;
     padding: 0.25em;
+    overflow: hidden;
 }
 
 .black {
