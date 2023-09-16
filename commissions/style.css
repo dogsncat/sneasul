@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial';
     font-weight: 500;
     font-size: 1.05em;
 }
@@ -46,10 +46,6 @@ ul {
     position: relative;
 }
 
-h2 {
-    font-family: 'Castoro', serif;
-}
-
 #title {
     display: flex;
     align-items: center;
@@ -57,7 +53,7 @@ h2 {
 }
 
 #pill {
-    background-color: red;
+    background-color: green;
     color: white;
     padding: 0.25em;
 }
@@ -93,3 +89,20 @@ h2 {
     height: 100%;
     object-fit: cover; /* Scale the image to cover the entire container */
   }
+
+  .important {
+    display: inline-block;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    font-weight: 700;
+  }
+
+.banner {
+    background-color: rgb(255, 81, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    font-weight: 700;
+    color: white;
+}
